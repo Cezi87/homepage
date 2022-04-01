@@ -1,0 +1,13 @@
+.header {
+    color: #dc143c;
+    background: #2c2c2c;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.header__header {
+    font-family: 'Major Mono Display', monospace;
+    font-size: 32px;
+    font-weight: 400;
+}

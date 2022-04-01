@@ -1,0 +1,31 @@
+.nav {
+    font-weight: 700;
+    color: #dc143c;
+    background: #2c2c2c;
+    font-family: 'Major Mono Display', monospace;
+    font-size: 17px;
+    padding: 1px 0px;
+}
+
+.nav__link {
+    color: #dc143c;
+    text-decoration: none;
+}
+
+.nav__link:visited {
+    color: #dc143c;
+}
+
+.nav__link:focus {
+    outline: 2px solid currentColor;
+}
+
+.nav__link:hover {
+    color: #ff0000;
+    border-bottom: 1px solid;
+    outline: none;
+}
+
+.nav__link:active {
+    color: #c0c0c0;
+}
