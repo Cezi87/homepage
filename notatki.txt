@@ -1,7 +1,0 @@
-header - plik
-section - plik
-article - plik
-table - spróbować przenieść overflow-x: auto; do table - plik
-footer - plik
-
-pozmieniać wszystkie klasy w HTML
