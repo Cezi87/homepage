@@ -1,9 +1,15 @@
-console.log("Cześć!");
-let button = document.querySelector(".js-button");
-let body = document.querySelector(".js-body");
+{
+    const welcome = () => {
+        console.log("Welcome to all developers!");
+    }
+    welcome();
 
-button.addEventListener("click", () => {
-    body.classList.toggle("body--light");
+    const button = document.querySelector(".js-button");
+    const body = document.querySelector(".js-body");
 
-    body.classList.contains("body--light") ? button.innerText = "Przyciemnij tło" : button.innerText = "Rozjaśnij tło";
-});
+    button.addEventListener("click", () => {
+        body.classList.toggle("body--light");
+
+        body.classList.contains("body--light") ? button.innerText = "Przyciemnij tło" : button.innerText = "Rozjaśnij tło";
+    });
+}
