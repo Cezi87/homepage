@@ -4,7 +4,7 @@
     }
     welcome();
 
-    const background = () => {
+    const changeBackground = () => {
         const button = document.querySelector(".js-button");
         const body = document.querySelector(".js-body");
         button.addEventListener("click", () => {
@@ -13,5 +13,5 @@
             body.classList.contains("body--light") ? button.innerText = "Przyciemnij tło" : button.innerText = "Rozjaśnij tło";
         });
     }
-    background();
+    changeBackground();
 }
