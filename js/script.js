@@ -4,12 +4,14 @@
     }
     welcome();
 
-    const button = document.querySelector(".js-button");
-    const body = document.querySelector(".js-body");
+    const background = () => {
+        const button = document.querySelector(".js-button");
+        const body = document.querySelector(".js-body");
+        button.addEventListener("click", () => {
+            body.classList.toggle("body--light");
 
-    button.addEventListener("click", () => {
-        body.classList.toggle("body--light");
-
-        body.classList.contains("body--light") ? button.innerText = "Przyciemnij tło" : button.innerText = "Rozjaśnij tło";
-    });
+            body.classList.contains("body--light") ? button.innerText = "Przyciemnij tło" : button.innerText = "Rozjaśnij tło";
+        });
+    }
+    background();
 }
